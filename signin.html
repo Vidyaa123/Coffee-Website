@@ -1,22 +1,27 @@
-<html>
-<body>
-<h1>Sign In Page</h1>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <!-- <script src="/Documents/Projects/bootstrap-4.3.1-dist" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  </head>
 
-<p>Please Note: First Name, Last Name, Password, and Email are required</p>
-<form>
-<p>First Name: <input type="text" name="firstname" value = "First Name">
-Last Name: <input type="text" name="lastname" value = "Last Name"></P>
-
-<p>Email:  <input type="text" name="email" value="name@email.com">
-Password:  <input type="text" name="password"></p>
-
-<p>Are you over the age of 18?</p>
-
-<p>Yes: <input type="radio" name="yesbutton">
-No: <input type="radio" name="nobutton"></p>
-
-
-<input type="button" name="submit" value="Submit Feedback">
-
-</body>
+  <body class="with-border">
+    <div class="jumbotron">
+      <h1 class="display-4">Login</h1>
+      <p class="lead">Enter your email and password to login to Dasz Lovers club.</p>
+    </div>
+    <div class = "container-fluid">
+      <form>
+        <p>Email:  <input type="text" style="width:100%" name="email" value="name@email.com">
+        Password:  <input type="text" style="width:100%" name="password"></p>
+        <input type="button" name="submit" value="Submit">
+      </form>
+    </div>
+  </body>
 </html>

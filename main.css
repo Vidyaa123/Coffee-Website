@@ -1,0 +1,28 @@
+
+
+
+.navbar-brand {
+    position: relative;
+    width: 20px;
+    left: 15px;
+    background-size: contain;
+    padding: 0px !important;
+}
+
+.navbar-nav{
+  padding-left:50px;
+}
+
+.line-2 {
+ font-family: 'Dancing Script', cursive;
+ font-size: 30px;
+ color: #FFFEE6;
+}
+
+.with-border{
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 20px;
+
+
+}
